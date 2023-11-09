@@ -164,6 +164,9 @@ jobs:
       eq(variables['UPDATE_DEPENDENTS'], 'true')
     )
 
+  dependsOn:
+    - Build_mscorlib
+
   pool:
     vmImage: 'windows-latest'
 
