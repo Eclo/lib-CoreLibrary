@@ -25,6 +25,8 @@
   </PropertyGroup>
   <Import Project="$(NanoFrameworkProjectSystemPath)NFProjectSystem.props" Condition="Exists('$(NanoFrameworkProjectSystemPath)NFProjectSystem.props')" />
   <ItemGroup>
+    <Compile Include="CallerArgumentExpressionAttributeTests.cs" />
+    <Compile Include="CallerMemberNameAttributeTests.cs" />
     <Compile Include="ConstructorTests.cs" />
     <Compile Include="Diagnostics\CodeAnalysis\NullableAttributesTests.cs" />
     <Compile Include="Runtime\CompilerServices\CallerArgumentExpressionAttributeTests.cs" />
