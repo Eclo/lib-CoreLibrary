@@ -143,7 +143,7 @@ namespace System
 #pragma warning disable S3928 // Parameter names used into ArgumentException constructors should match an existing one 
             if (!TryParse(
                 g,
-                out this))
+                out Guid result))
             {
                 throw new ArgumentException();
             }
